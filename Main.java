@@ -54,6 +54,13 @@ public class Main {
                     System.out.println("Area: " + square.calculateArea());
                     System.out.println("Perimeter: " + square.calculatePerimeter());
                     break;
+                case 4:
+                    // Prompting the user to enter the radius for a Sphere
+                    System.out.print("Enter radius: ");
+                    Sphere sphere = new Sphere(scanner.nextDouble());
+                    System.out.println("Surface Area: " + sphere.calculateArea());
+                    System.out.println("Volume: " + sphere.calculateVolume());
+                    break;
             }
         }
     }
