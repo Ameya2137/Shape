@@ -91,6 +91,8 @@ public class Main {
                     // If the user enters a number other than 0-6, following error message is returned
                     System.out.println("Invalid choice!");
             }
-        }
+        } while (choice != 0); // Repeats the menu until the user enters 0
+
+        scanner.close(); // Closing Scanner object to avoid resource leaks 
     }
 }
