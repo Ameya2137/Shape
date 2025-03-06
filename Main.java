@@ -36,6 +36,17 @@ public class Main {
                     System.out.println("Area: " + circle.calculateArea());
                     System.out.println("Perimeter: " + circle.calculatePerimeter());
                     break;
+                case 2:
+                    // Prompting the user to enter the length
+                    System.out.print("Enter length: ");
+                    double length = scanner.nextDouble();
+                    // Prompting the user to enter the width
+                    System.out.print("Enter width: ");
+                    double width = scanner.nextDouble();
+                    Rectangle rectangle = new Rectangle(length, width);
+                    System.out.println("Area: " + rectangle.calculateArea());
+                    System.out.println("Perimeter: " + rectangle.calculatePerimeter());
+                    break;
             }
         }
     }
