@@ -61,6 +61,17 @@ public class Main {
                     System.out.println("Surface Area: " + sphere.calculateArea());
                     System.out.println("Volume: " + sphere.calculateVolume());
                     break;
+                case 5:
+                    // Prompting the user to enter the radius for a Cylinder
+                    System.out.print("Enter radius: ");
+                    double r = scanner.nextDouble();
+                    // Prompting the user to enter the height for a Cylinder
+                    System.out.print("Enter height: ");
+                    double h = scanner.nextDouble();
+                    Cylinder cylinder = new Cylinder(r, h);
+                    System.out.println("Surface Area: " + cylinder.calculateArea());
+                    System.out.println("Volume: " + cylinder.calculateVolume());
+                    break;
             }
         }
     }
