@@ -83,6 +83,13 @@ public class Main {
                     System.out.println("Surface Area: " + pyramid.calculateArea());
                     System.out.println("Volume: " + pyramid.calculateVolume());
                     break;
+                case 0:
+                    // Ends loop and prints and exit message
+                    System.out.println("Exiting...");
+                    break;
+                default:
+                    // If the user enters a number other than 0-6, following error message is returned
+                    System.out.println("Invalid choice!");
             }
         }
     }
