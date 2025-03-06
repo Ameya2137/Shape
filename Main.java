@@ -72,6 +72,17 @@ public class Main {
                     System.out.println("Surface Area: " + cylinder.calculateArea());
                     System.out.println("Volume: " + cylinder.calculateVolume());
                     break;
+                case 6:
+                    // Prompting the user to enter the base side for a EquilateralPyramid (Square Base)
+                    System.out.print("Enter base side: ");
+                    double b = scanner.nextDouble();
+                    // Prompting the user to enter the height for a EquilateralPyramid (Square Base)
+                    System.out.print("Enter height: ");
+                    double pyHeight = scanner.nextDouble();
+                    EquilateralPyramid pyramid = new EquilateralPyramid(b, pyHeight);
+                    System.out.println("Surface Area: " + pyramid.calculateArea());
+                    System.out.println("Volume: " + pyramid.calculateVolume());
+                    break;
             }
         }
     }
