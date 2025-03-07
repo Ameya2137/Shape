@@ -9,4 +9,14 @@ class Square extends Shape {
         super("Square");
         this.side = side;
     }
+
+    // Method to calculate area of a Square
+    public double calculateArea() {
+        return side * side;
+    }
+
+    // Method to calculate perimeter of a Square
+    public double calculatePerimeter() {
+        return 4 * side;
+    }
 }
