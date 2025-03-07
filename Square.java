@@ -1,6 +1,6 @@
 // Square.java
 
-// Declaring a class named Square that inheritants properties and methods of Shape
+// Declaring a class named Square that inherits properties and methods of Shape
 class Square extends Shape {
     private double side;
 
