@@ -1,6 +1,6 @@
 // Sphere.java
 
-// Declaring a class named Sphere that inheritants properties and methods of Shape
+// Declaring a class named Sphere that inherits properties and methods of Shape
 class Sphere extends Shape implements Volume {
     private double radius;
 
