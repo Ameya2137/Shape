@@ -9,4 +9,19 @@ class Sphere extends Shape implements Volume {
         super("Sphere");
         this.radius = radius;
     }
+
+    // Method to calculate area of a Sphere
+    public double calculateArea() {
+        return 4 * Math.PI * radius * radius;
+    }
+
+    // Method to calculate perimeter of a Sphere
+    public double calculatePerimeter() {
+        return 0; // No perimeter for a sphere
+    }
+
+    // Method to calculate volume of a Sphere
+    public double calculateVolume() {
+        return (4.0 / 3.0) * Math.PI * Math.pow(radius, 3);
+    }
 }
