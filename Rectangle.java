@@ -1,6 +1,6 @@
 //Rectangle.java
 
-// Declaring a class named Rectangle that inheritants properties and methods of Shape
+// Declaring a class named Rectangle that inherits properties and methods of Shape
 class Rectangle extends Shape {
     private double length, width;
 
