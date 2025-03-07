@@ -10,3 +10,14 @@ class Rectangle extends Shape {
         this.length = length;
         this.width = width;
     }
+
+    // Method to calculate area of a Rectangle
+    public double calculateArea() {
+        return length * width;
+    }
+
+    // Method to calculate perimeter of a Rectangle
+    public double calculatePerimeter() {
+        return 2 * (length + width);
+    }
+}
