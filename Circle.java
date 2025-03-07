@@ -1,6 +1,6 @@
 //Circle.java
 
-// Declaring a class named Circle that inheritants properties and methods of Shape
+// Declaring a class named Circle that inherits properties and methods of Shape
 class Circle extends Shape {
     private double radius;
 
