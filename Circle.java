@@ -9,4 +9,14 @@ class Circle extends Shape {
         super("Circle");
         this.radius = radius;
     }
+
+    // Method to calculate area of a Circle
+    public double calculateArea() {
+        return Math.PI * radius * radius;
+    }
+
+    // Method to calculate perimeter (circumference) of a Circle
+    public double calculatePerimeter() {
+        return 2 * Math.PI * radius;
+    }
 }
